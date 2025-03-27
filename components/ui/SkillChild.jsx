@@ -56,7 +56,7 @@ const SkillChild = ({ logoName }) => {
   return (
     <div className="relative group">
       {logoSkill(logoName)}
-      <div className="text-white after:h-4 after:w-4 after:absolute after:bg-thirdEle after:rotate-45 after:left-[54%] after:translate-x-[-50%] after:bottom-[-8px] absolute z-50 top-[-40px] rounded-lg duration-150 left-[54%] translate-x-[-50%] scale-0 bg-secondEle py-1.5 p-3 group-hover:scale-100 z-10">
+      <div className="text-white after:h-4 after:w-4 after:absolute after:bg-thirdEle after:rotate-45 after:left-[54%] after:translate-x-[-50%] after:bottom-[-8px] absolute z-50 top-[-40px] rounded-lg duration-150 left-[54%] translate-x-[-50%] scale-0 bg-secondEle py-1.5 p-3 group-hover:scale-100">
         <p className="font-semibold">{logoName}</p>
       </div>
     </div>
